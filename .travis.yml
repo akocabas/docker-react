@@ -15,3 +15,6 @@ deploy:
   app: "docker-react"
   env: "Dockerreact-env"
   bucket_name: 
+  bucket_path: "docker-react"
+  on: 
+    branch: master
